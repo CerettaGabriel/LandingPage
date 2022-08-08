@@ -1,0 +1,21 @@
+*
+.container_header {
+    display: flex;
+    justify-content: center;
+    background-color: #000000;
+}
+.container_header div {
+    color: #FFFFFF;
+    padding: 10px;
+}
+body {
+
+}
+.backgroud_div {
+    width: 100%;
+}
+.backgroud_div img {
+    width: inherit;
+    height: 525px;
+    filter: brightness(0.45);
+}
