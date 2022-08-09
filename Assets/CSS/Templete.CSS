@@ -8,14 +8,64 @@
     color: #FFFFFF;
     padding: 10px;
 }
+.container_header img {
+    padding: 10px;
+}
 body {
-
+ margin: 0px;
+ padding: 0px;
+}
+#banner {
+    background-image: url(../Images/Img3\ -\ Titular.jpg);
+    width: auto;
+    height: 550px;
+    display: flex;
+    justify-content: center;
+    margin: 0px;
+    padding: 0px;
+    font-family: Arial, Helvetica, sans-serif;
 }
 .backgroud_div {
-    width: 100%;
+    filter: brightness(1.0);
 }
-.backgroud_div img {
-    width: inherit;
-    height: 525px;
-    filter: brightness(0.45);
+#content_1 {
+    color: #FFFFFF;
+    font-weight: bolder;
+    text-align: center;
+    font-size: 50px;
+    filter:brightness(1);
+}
+#content_2 {
+    color: #ff9ad5;
+    font-weight: bolder;
+    font-size: 35px;
+    text-align: center;
+    -webkit-text-stroke-width: 0.5px;
+    -webkit-text-stroke-color: #000000;
+}
+#content_3 {
+    color: #ff9ad5;
+    font-weight: bolder;
+    font-size: 35px;
+    text-align: center;
+    -webkit-text-stroke-width: 0.2px;
+    -webkit-text-stroke-color: #000000;
+}
+#content_4 {
+    color: #FFFFFF;
+    font-weight: bolder;
+    font-size: 13px;
+    text-align: center;
+    width: 600px;
+    margin-left: 129px;
+    margin-right: 129px;
+}
+#content_5 {
+    color: #FFFFFF;
+    font-weight: bolder;
+    font-size: 20px;
+    text-align: center;
+    width: 500px;
+    margin-left: 179px;
+    margin-right: 179px;
 }
