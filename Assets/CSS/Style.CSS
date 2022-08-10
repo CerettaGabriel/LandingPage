@@ -72,22 +72,6 @@ body {
     margin-right: 179px;
     margin-top: 40px;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 .background_container {
     display: flex;
     justify-content: space-between;
@@ -103,7 +87,6 @@ body {
     flex: 1;
     border: 1px solid #FFFFFF;
     margin-top: -100px;
-    background-color: #000000;
 }
 .box_3 {
     flex: 1;
@@ -128,14 +111,8 @@ body {
     margin-top: 0px;
     border: 1px solid #000000;
 }
-.contentbox_2 {
-    border: 1px solid #FFFFFF;
-    margin: 20px;
-    padding: 20px;
-}
-#formulario {
-    color: #FFFFFF;
-}
+
+
 
 
 
