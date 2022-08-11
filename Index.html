@@ -4,7 +4,7 @@
         <meta charset="UTF-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link rel="stylesheet" type="text/css" href="../LeadingPage/Assets/CSS/Templete.CSS"/>
+        <link rel="stylesheet" type="text/css" href="Assets/CSS/Templete.CSS"/>
         <title>Ex - Leading Page</title>
     </head>
 
@@ -54,22 +54,65 @@
                 <div class="box_2">
                     <form>
                         <fieldset>
+                            <h3 id="title_form">Preencha</h3>
                             <div>
-                                <label>Nome</label>
-                                <input type="text" name="nome" id="nome">
+                                <label id="name_form">Nome</label>
+                                <br>
+                                <div class="format_container">
+                                    <input type="text" name="name" id="name" required>
+                                </div>
                             </div>
 
                             <div>
-                                <label>Sobrenome</label>
-                                <input type="text" name="sobrenome" id="sobrenome">
+                                <label id="email_form">Email</label>
+                                <br>
+                                <div class="format_container">
+                                    <input type="email" name="email" id="email" required>
+                                </div>
                             </div>
+
+                            <div>
+                                <label id="phone_form">Telefone</label>
+                                <br>
+                                <div class="format_container">
+                                    <input type="text" name="phone" id="phone" required>
+                                </div>
+                            </div>
+
+                            <div id="chose_container">
+                                <label id="chose_form">Escolha um único curso:</label> 
+                                <br>
+                                    <label class="options">
+                                        <input style="margin-bottom: 10px; margin-top: 10px;" type="radio" name="escolha" value="saias"> Como modelar e confeccionar saias.
+                                    </label>
+                                <br>
+                                    <label class="options">
+                                        <input style="margin-bottom: 10px;" type="radio" name="escolha" value="tecnica"> Acabamentos primorosos e técnicas de costura.
+                                    </label>
+                                <br>
+                                    <label class="options">
+                                        <input style="margin-bottom: 10px;" type="radio" name="escolha" value="centesimal"> Introdução ao método de corte centesimal.
+                                    </label>
+                                <br>
+                                    <label class="options">
+                                        <input style="margin-bottom: 10px;" type="radio" name="escolha" value="americanos"> Workshop de jogos americanos.
+                                    </label>
+                            </div>
+
+                            <div id="verification_container">
+                                <label id="verification_form">Verificação: Quanto é 10 + 5?</label>
+                                <br>
+                                <div class="format_container">
+                                    <input type="number" name="number" id="recaptcha" required>
+                                </div>    
+                            </div>
+
+                            <div class="button_container">
+                                <button id="button_form">ESCOLHER ESSE CURSO</button>
+                            </div>
+                                
+                            <P id="obs_form">Não utilizaremos de suas informaçoes pessoais para o envio de qualquer tipo de spam.</P>
                         </fieldset>
-
-                        <div>
-                            <label>Email</label>
-                            <input type="email" name="email" id="email">
-                        </div>
-
                     </form>
                 </div>
 
@@ -94,8 +137,17 @@
                         </div>
                         </div>
                 </div>
-
             </div>
         </section>
+
+        <footer>
+            <div id="footer_text">
+                Feito com amor para contribuir com seu desenvolvimento pessoal!
+            </div>
+                <div id="bar"></div>
+            <div id="copyR">
+                Copyright &copy; - All rights reserved
+            </div>
+        </footer>
     </body>
 </html>
