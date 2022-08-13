@@ -89,7 +89,7 @@ body {
     margin-top: -100px;
     background-color: #000000;
     color: #FFFFFF;
-    height: 825px;
+    height: 760px;
 }
 .box_3 {
     flex: 1;
@@ -114,11 +114,13 @@ body {
 }
 /* Style do formulário */
 fieldset {
-    border: 1px solid #FFFFFF;
     margin: 30px;
     height: auto;
 }
 #title_form {
+    font-size: 25px;
+    font-weight: bolder;
+    margin-top: 10px;
     margin-bottom: 40px;
     text-align: center;
 }
@@ -201,38 +203,6 @@ fieldset {
     font-weight: bolder;
     text-align: justify;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 .contentbox_3 {
     display: flex;
     text-align: justify;
